@@ -1,0 +1,10 @@
+Background:
+{upstream_ctx}
+
+Evidence:
+{evidence}
+
+Question:
+{question}
+
+Answer:

@@ -1,0 +1,21 @@
+{
+  "profile": "musique",
+  "model": "gpt-4o-mini-2024-07-18",
+  "k": 5,
+  "reflection_threshold": -0.107,
+  "max_reconstructions": 3,
+  "reflection_enabled": true,
+  "epsilon": 0.001,
+  "top_k_dense": 50,
+  "top_k_bm25": 50,
+  "top_k_rerank": 10,
+  "dense_model": "sentence-transformers/all-mpnet-base-v2",
+  "reranker_model": "cross-encoder/ms-marco-MiniLM-L-12-v2",
+  "es_index": "musiquenew_wikipedia",
+  "bm25_fields": [
+    "title^1.25",
+    "title_unescape^1.25",
+    "text",
+    "text_bigram"
+  ]
+}

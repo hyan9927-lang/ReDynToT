@@ -1,0 +1,6 @@
+Here are context paragraphs:
+{contexts}
+
+Question: {question}
+
+Extract the answer:

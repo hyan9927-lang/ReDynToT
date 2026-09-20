@@ -1,0 +1,11 @@
+Here is a low-quality decomposition example:
+
+{example_json}
+
+Please:
+1. Reflect on this decomposition against the rules above and identify any violations.
+2. If any violations exist, discard the entire structure.
+3. Produce a new, high-quality JSON decomposition **of the root question only** according to the rules.
+4. **Please output only a single-line JSON without indentation—no line breaks or extra spaces.**
+
+Respond **only** with the new JSON object.
